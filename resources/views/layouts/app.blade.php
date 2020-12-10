@@ -28,11 +28,7 @@
     </head>
     <body class="page-loading">
       <!-- page loading spinner -->
-      <div class="pageload">
-        <div class="pageload-inner">
-          <div class="sk-rotating-plane"></div>
-        </div>
-      </div>
+     
       <!-- /page loading spinner -->
       <div class="app layout-fixed-header">
         <!-- sidebar panel -->
