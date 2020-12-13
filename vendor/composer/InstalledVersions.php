@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '23a4b16b37f8a63f265ee42197da683168455012',
+    'reference' => 'f82b716849d1c88caaa602a43d6d4f45eab5ea7c',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -530,7 +530,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '23a4b16b37f8a63f265ee42197da683168455012',
+      'reference' => 'f82b716849d1c88caaa602a43d6d4f45eab5ea7c',
     ),
     'laravel/passport' => 
     array (
@@ -645,6 +645,42 @@ private static $installed = array (
         0 => '*',
       ),
     ),
+    'maatwebsite/excel' => 
+    array (
+      'pretty_version' => '3.1.26',
+      'version' => '3.1.26.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '66f7c9584304ad0b6a267a5d8ffbfa2ff4272e85',
+    ),
+    'maennchen/zipstream-php' => 
+    array (
+      'pretty_version' => '2.1.0',
+      'version' => '2.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c4c5803cc1f93df3d2448478ef79394a5981cc58',
+    ),
+    'markbaker/complex' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9999f1432fae467bc93c53f357105b4c31bb994c',
+    ),
+    'markbaker/matrix' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9567d9c4c519fbe40de01dbd1e4469dbbb66f46a',
+    ),
     'mobiledetect/mobiledetectlib' => 
     array (
       'pretty_version' => '2.8.34',
@@ -691,6 +727,15 @@ private static $installed = array (
       array (
         0 => '1.10.2',
       ),
+    ),
+    'myclabs/php-enum' => 
+    array (
+      'pretty_version' => '1.7.7',
+      'version' => '1.7.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd178027d1e679832db9f38248fcc7200647dc2b7',
     ),
     'nesbot/carbon' => 
     array (
@@ -808,6 +853,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0',
+    ),
+    'phpoffice/phpspreadsheet' => 
+    array (
+      'pretty_version' => '1.15.0',
+      'version' => '1.15.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a8e8068b31b8119e1daa5b1eb5715a3a8ea8305f',
     ),
     'phpoption/phpoption' => 
     array (

@@ -9,11 +9,19 @@
 <!-- main area -->
       <div class="main-content">
         <div class="page-title">
-          <div class="title">Lista de Usuarios</div>
+          <div class="title">{{ __('USUARIOS') }}</div>
         </div>
         <div class="card bg-white">
           <div class="card-header">
-            Usuarios
+              <div class="row">
+                  <div class="col-sm-10">
+                      <h6> {{ __('LISTA DE USUARIOS') }} </h6>
+                  </div>
+                  <div class="form-group row">
+                     <a class="col-sm-2 btn btn-default btn-sm" href="{{ route('downloadExcelUsers') }}" ><i class="fa fa-file-excel-o"></i>  {{ __('Exportar Excell') }}</a>
+                  </div>
+                 
+               </div> 
           </div>
           <div class="card-block">
             <table class="table table-bordered table-condensed m-b-0" id="example3">
