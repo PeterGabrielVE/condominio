@@ -19,4 +19,8 @@ Route::get('/', function () {
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
-})->name('dashboard');
+})->name('dashboard'); 
+
+Route::namespace("App\\Http\\Controllers")->group(function () {
+    Route::get("/users", "UserController@index")->name('user.index');
+});

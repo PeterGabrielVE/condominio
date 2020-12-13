@@ -81,26 +81,7 @@
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right hidden-xs">
-          <li>
-            <a href="javascript:;" class="ripple" data-toggle="dropdown">
-              <span>EN</span>
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="javascript:;">English</a>
-              </li>
-              <li>
-                <a href="javascript:;">Russian</a>
-              </li>
-              <li>
-                <a href="javascript:;">French</a>
-              </li>
-              <li>
-                <a href="javascript:;">Spanish</a>
-              </li>
-            </ul>
-          </li>
+          
           <li>
             <a href="javascript:;" class="ripple" data-toggle="dropdown">
               <i class="icon-bell"></i>
@@ -168,6 +149,7 @@
               </li>
             </ul>
           </li>
+         
           <li style="width: 100px;">
             <a href="javascript:;" class="ripple" data-toggle="dropdown">
               <img src="{{ Auth::user()->profile_photo_url }}" alt="{{ Auth::user()->name }}" class="header-avatar img-circle" alt="user" title="user">
@@ -186,8 +168,8 @@
              
               <li>
                  @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
-              		<a href="{{ route('api-tokens.index') }}"> {{ __('API Tokens') }}</a>            
-              	@endif
+                  <a href="{{ route('api-tokens.index') }}"> {{ __('API Tokens') }}</a>            
+                @endif
               </li>
               <li role="separator" class="divider"></li>
               <li>
@@ -227,7 +209,7 @@
               <li>
                 <form method="POST" action="{{ route('logout') }}">
                 @csrf
-				 <x-jet-dropdown-link href="{{ route('logout') }}"
+         <x-jet-dropdown-link href="{{ route('logout') }}"
                      onclick="event.preventDefault(); this.closest('form').submit();">
                         {{ __('Logout') }}
                  </x-jet-dropdown-link>
@@ -235,10 +217,6 @@
               </li>
             </ul>
           </li>
-          <li>
-            <a href="javascript:;" class="ripple" data-toggle="layout-chat-open">
-              <i class="icon-user"></i>
-            </a>
-          </li>
+         
         </ul>
 </div>

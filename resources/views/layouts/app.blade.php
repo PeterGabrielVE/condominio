@@ -7,6 +7,7 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
+        <link rel="stylesheet" href="{{ asset('vendor/datatables/media/css/datatables.bootstrap.css') }}">
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
@@ -21,6 +22,7 @@
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
         <link rel="stylesheet" href="{{ asset('css/reactor.css') }}">
         <link rel="stylesheet" href="{{ asset('css/app.skins.css') }}">
+
         @livewireStyles
 
         <!-- Scripts -->
@@ -91,23 +93,38 @@
  
   <!-- endbuild -->
   <!-- page scripts -->
-  <script src="{{asset('vendor/flot/jquery.flot.js')}}"></script> 
-  <script src="{{asset('vendor/flot/jquery.flot.resize.js')}}"></script> 
-  <script src="{{asset('vendor/flot/jquery.flot.categories.js')}}"></script> 
-  <script src="{{asset('vendor/flot/jquery.flot.stack.js')}}"></script> 
-  <script src="{{asset('vendor/flot/jquery.flot.time.js')}}"></script> 
-  <script src="{{asset('vendor/flot/jquery.flot.pie.js')}}"></script> 
+  <script src="{{asset('vendor/datatables/media/js/jquery.dataTables.js')}}"></script> 
+  <script src="{{asset('vendor/datatables/media/js/datatables.bootstrap.js')}}"></script> 
+  <script>
+    var title = 'Users';
+    var columns = [0,1,2,3,4];
 
+    $(document).ready(function() {
+     
+        $('#example3').DataTable( {
+          lengthChange: true,
+          lengthMenu:[10,25,50,100],
+          dom: "<'row'<'col-sm-12 col-md-2'l><'col-sm-12 col-md-4'><'col-sm-12 col-md-6'f>>t<ip>",
+          buttons: [
+              {
+                  extend: 'excel',
+                  title: title,
+                  text: '<img src="img/excel-ico.png" alt="" heigth= ""/> Export Excell',
+                  titleAttr: 'Excel',
+                  exportOptions: {
+                      columns: columns
+                  }
 
-  <script src="{{asset('vendor/flot-spline/js/jquery.flot.spline.js')}}"></script>
-  <script src="{{asset('vendor/flot.orderbars/js/jquery.flot.orderBars.js')}}"></script>  
-  
+              }
+          ],
+        });
+
+         
+    });
+  </script>
+
   <!-- end page scripts -->
-  <!-- initialize page scripts -->
-  <script src="{{asset('js/helpers/sameheight.js')}}"></script> 
-  <script src="{{asset('js/ui/dashboard.js')}}"></script> 
-
-  <!-- end initialize page scripts -->
+ 
 </body>
     
 </html>

@@ -1,9 +1,6 @@
 <div class="sidebar-panel offscreen-left">
       <div class="brand">
-        <!-- toggle small sidebar menu -->
-        <a href="javascript:;" class="toggle-apps hidden-xs" data-toggle="quick-launch">
-          <i class="icon-grid"></i>
-        </a>
+ 
         <!-- /toggle small sidebar menu -->
         <!-- toggle offscreen menu -->
         <div class="toggle-offscreen">
@@ -21,40 +18,7 @@
         <a href="#" class="small-menu-visible brand-logo">R</a>
         <!-- /logo -->
       </div>
-      <ul class="quick-launch-apps hide">
-        <li>
-          <a href="apps-gallery.html">
-            <span class="app-icon bg-danger text-white">
-            G
-            </span>
-            <span class="app-title">Gallery</span>
-          </a>
-        </li>
-        <li>
-          <a href="apps-messages.html">
-            <span class="app-icon bg-success text-white">
-            M
-            </span>
-            <span class="app-title">Messages</span>
-          </a>
-        </li>
-        <li>
-          <a href="apps-social.html">
-            <span class="app-icon bg-primary text-white">
-            S
-            </span>
-            <span class="app-title">Social</span>
-          </a>
-        </li>
-        <li>
-          <a href="apps-travel.html">
-            <span class="app-icon bg-info text-white">
-            T
-            </span>
-            <span class="app-title">Travel</span>
-          </a>
-        </li>
-      </ul>
+      
       <!-- main navigation -->
       <nav role="navigation">
         <ul class="nav">
@@ -70,106 +34,32 @@
           <li>
             <a href="http://customizer.nyasha.me/#reactor" target="_blank">
               <i class="icon-equalizer"></i>
-              <span>Customize</span>
+              <span>Edificios</span>
             </a>
           </li>
           <!-- /customizer -->
-          <!-- cards -->
-          <li>
-            <a href="javascript:;">
-              <span class="badge pull-right">4</span>
-              <i class="icon-drop"></i>
-              <span>Cards</span>
+                  <li>
+            <a href="http://customizer.nyasha.me/#reactor" target="_blank">
+              <i class="icon-equalizer"></i>
+              <span>Administraciones</span>
             </a>
-            <ul class="sub-menu">
-              <li>
-                <a href="cards-basic.html">
-                  <span>Basic</span>
-                </a>
-              </li>
-              <li>
-                <a href="cards-portlets.html">
-                  <span>Portlets</span>
-                </a>
-              </li>
-              <li>
-                <a href="cards-draggable.html">
-                  <span>Draggable</span>
-                </a>
-              </li>
-              <li>
-                <a href="cards-widgets.html">
-                  <span>Widgets</span>
-                </a>
-              </li>
-            </ul>
           </li>
-          <!-- /cards -->
-          <!-- apps -->
-          <li>
-            <a href="javascript:;">
-              <i class="icon-cursor"></i>
-              <span>Apps</span>
+                  <li>
+            <a href="http://customizer.nyasha.me/#reactor" target="_blank">
+              <i class="icon-equalizer"></i>
+              <span>Empresas Externas</span>
             </a>
-            <ul class="sub-menu">
-              <li>
-                <a href="apps-calendar.html">
-                  <span>Calendar</span>
-                </a>
-              </li>
-              <li>
-                <a href="apps-gallery.html">
-                  <span>Gallery</span>
-                </a>
-              </li>
-              <li>
-                <a href="apps-messages.html">
-                  <span>Messages</span>
-                </a>
-              </li>
-              <li>
-                <a href="apps-social.html">
-                  <span>Social</span>
-                </a>
-              </li>
-              <li>
-                <a href="apps-projects.html">
-                  <span>Projects</span>
-                </a>
-              </li>
-              <li>
-                <a href="apps-contacts.html">
-                  <span>Contacts</span>
-                </a>
-              </li>
-              <li>
-                <a href="apps-travel.html">
-                  <span>Travel</span>
-                </a>
-              </li>
-            </ul>
           </li>
-          <!-- /apps -->
-          <!-- commerce -->
-          <li>
-            <a href="javascript:;">
-              <i class="icon-bag"></i>
-              <span>Commerce</span>
+
+ 
+          <!-- usuarios -->
+         <li>
+            <a href="{{ route('user.index') }}" target="_blank">
+              <i class="icon-equalizer"></i>
+              <span>Usuarios</span>
             </a>
-            <ul class="sub-menu">
-              <li>
-                <a href="commerce-products.html">
-                  <span>Products</span>
-                </a>
-              </li>
-              <li>
-                <a href="commerce-cart.html">
-                  <span>Cart</span>
-                </a>
-              </li>
-            </ul>
           </li>
-          <!-- /commerce -->
+          <!-- /usuarios -->
           <!-- ui -->
           <li>
             <a href="javascript:;">
@@ -529,23 +419,9 @@
             </ul>
           </li>
           <!-- menu levels -->
-          <!-- documentation -->
-          <li>
-            <a href="http://reactor.nyasha.me/documentation" target="_blank">
-              <i class="icon-layers"></i>
-              <span>Documentation</span>
-            </a>
-          </li>
-          <!-- /documentation -->
-          <!-- static -->
-          <li>
-            <a href="http://reactor.nyasha.me/angular" target="_blank">
-              <i class="icon-control-play"></i>
-              <span>Angular version</span>
-            </a>
-          </li>
-          <!-- /static -->
+
         </ul>
       </nav>
       <!-- /main navigation -->
     </div>
+

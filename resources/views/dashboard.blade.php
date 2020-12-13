@@ -2,70 +2,9 @@
 
 @section('content')
 <div class="main-content">
-        <div class="m-x-n-g m-t-n-g overflow-hidden">
-          <div class="card m-b-0 bg-primary-dark text-white p-a-md no-border">
-            <h4 class="m-t-0">
-              <span class="pull-right">$ 82,560.00 This week</span>
-              <span>Activity</span>
-              </h4>
-            <div class="chart dashboard-line labels-white" style="height:300px"></div>
-          </div>
-          <div class="card bg-white no-border">
-            <div class="row text-center">
-              <div class="col-sm-3 col-xs-6 p-t p-b">
-                <h4 class="m-t-0 m-b-0">$ 89.34</h4>
-                <small class="text-muted bold">Daily Sales</small>
-              </div>
-              <div class="col-sm-3 col-xs-6 p-t p-b">
-                <h4 class="m-t-0 m-b-0">$ 498.00</h4>
-                <small class="text-muted bold">Weekly Sales</small>
-              </div>
-              <div class="col-sm-3 col-xs-6 p-t p-b">
-                <h4 class="m-t-0 m-b-0">$ 34,903</h4>
-                <small class="text-muted bold">Monthly Sales</small>
-              </div>
-              <div class="col-sm-3 col-xs-6 p-t p-b">
-                <h4 class="m-t-0 m-b-0">$ 98,343.49</h4>
-                <small class="text-muted bold">Yearly Sales</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row same-height-cards">
-          <div class="col-md-8">
-            <div class="card no-border bg-white">
-              <div class="card-block row-equal align-middle">
-                <div class="column p-r">
-                  <div class="h6 text-uppercase">Donec sed odio dui.</div>
-                  <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-                  <div class="widget-card-title">
-                    <div class="pull-right">
-                      <span class="m-r"><i class="icon-bar-chart text-primary"></i>&nbsp;Visitors</span>
-                      <span><i class="icon-bar-chart text-success"></i>&nbsp;Conversion</span>
-                    </div>
-                    <h5 class="text-success">$ 56,873</h5>
-                  </div>
-                </div>
-                <div class="column p-l">
-                  <div class="dashboard-barO" style="height:200px"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card no-border bg-white">
-              <div class="card-block">
-                <div class="text-center p-a">
-                  <h4 class="card-title p-a-lg m-b-0">Etiam porta sem malesuada magna mollis euismod.</h4>
-                </div>
-                <div class="">
-                  <a href="#" class="card-link pull-right"><i class="icon-clock"></i>&nbsp;20m ago</a>
-                  <a href="#" class="card-link m-l-0">website.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        
+        
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <div class="card card-block no-border bg-primary">
@@ -291,119 +230,13 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card no-border">
-              <div class="card-block">
-                <div class="text-center">
-                  <h6>The summer of 2015</h6>
-                  <h3 class="m-t">New brew flavor</h3>
-                  <p>Cras mattis consectetur purus sit amet fermentum.</p>
-                </div>
-                <div class="text-center">
-                  <img src="images/cactus.png" class="img-responsive center-block relative" alt="" style="max-width: 230px;left: 1rem;">
-                </div>
-                <div class="text-center">
-                  <a href="#" class="btn btn-primary btn-sm">Place Order</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card bg-white no-border">
-              <div class="p-a bb">
-                NOTIFICATIONS
-              </div>
-              <ul class="notifications">
-                <li>
-                  <ul class="notifications-list">
-                    <li>
-                      <a href="javascript:;">
-                        <div class="notification-icon">
-                          <div class="circle-icon bg-success text-white">
-                            <i class="icon-bulb"></i>
-                          </div>
-                        </div>
-                        <span class="notification-message"><b>Sean</b> launched a new application</span>
-                        <span class="time">2s</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <div class="notification-icon">
-                          <div class="circle-icon bg-danger text-white">
-                            <i class="icon-cursor"></i>
-                          </div>
-                        </div>
-                        <span class="notification-message"><b>Removed calendar</b> from app list</span>
-                        <span class="time">4h</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <div class="notification-icon">
-                          <div class="circle-icon bg-primary text-white">
-                            <i class="icon-basket"></i>
-                          </div>
-                        </div>
-                        <span class="notification-message"><b>Denise</b> bought <b>Urban Admin Kit</b></span>
-                        <span class="time">2d</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="javascript:;">
-                        <div class="notification-icon">
-                          <div class="circle-icon bg-info text-white">
-                            <i class="icon-bubble"></i>
-                          </div>
-                        </div>
-                        <span class="notification-message"><b>Vincent commented</b> on one of your items</span>
-                        <span class="time">2s</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card card-block no-border bg-primary text-white">
-                  <h6 class="m-a-0">NEW USERS</h6>
-                  <h1 class="m-a-0">785</h1>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card card-block no-border bg-dark text-white">
-                  <h6 class="m-a-0">PAGE VIEWS</h6>
-                  <h1 class="m-a-0">381</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-block bg-white p-b-0 no-border">
-              <div class="pie-chart m-b-md m-t-md" style="height:150px"></div>
-              <div class="text-center m-b-md">
-                <div class="text-muted text-uppercase">Total</div>
-                <h5 class="m-a-0">48 Kilometers</h5>
-              </div>
-              <ul class="list-unstyled m-x-n m-b-0">
-                <li class="b-t p-a-md">
-                  <span class="pull-right">45,677</span>
-                  <i class="fa fa-circle text-primary m-r"></i> Accelaration
-                </li>
-                <li class="b-t p-a-md">
-                  <span class="pull-right">234,456</span>
-                  <i class="fa fa-circle text-info m-r"></i> Braking
-                </li>
-                <li class="b-t p-a-md">
-                  <span class="pull-right">43,554</span>
-                  <i class="fa fa-circle text-warning m-r"></i> Cornering
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+        
 
+@endsection
+@section('js')
+ <!-- initialize page scripts -->
+  <script src="{{asset('js/helpers/sameheight.js')}}"></script> 
+  <script src="{{asset('js/ui/dashboard.js')}}"></script> 
+
+  <!-- end initialize page scripts -->
 @endsection
