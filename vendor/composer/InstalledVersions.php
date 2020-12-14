@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'f82b716849d1c88caaa602a43d6d4f45eab5ea7c',
+    'reference' => 'dd0328827f7bc4dc78701ab0199c27aeff88d4fb',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -530,7 +530,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'f82b716849d1c88caaa602a43d6d4f45eab5ea7c',
+      'reference' => 'dd0328827f7bc4dc78701ab0199c27aeff88d4fb',
     ),
     'laravel/passport' => 
     array (
@@ -558,6 +558,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '45884b526e10a88a1b179fa1a1a24d5468c668c2',
+    ),
+    'laravelcollective/html' => 
+    array (
+      'pretty_version' => 'v6.2.0',
+      'version' => '6.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3bb99be7502feb2129b375cd026ccb0fa4b66628',
     ),
     'lcobucci/clock' => 
     array (

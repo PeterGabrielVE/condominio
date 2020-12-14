@@ -6,6 +6,8 @@
 @endsection
 
 @section('content')
+{{-- modal create --}}
+@include('pages.user.create')
 <!-- main area -->
       <div class="main-content">
         <div class="page-title">
@@ -60,5 +62,7 @@
         </div>
       </div>
       <!-- /main area -->
-      
+      <!--Add New Message Fab Button-->
+<a href="#" class="btn-fab btn-fab-md fab-right fab-right-bottom-fixed shadow btn-primary" data-toggle="modal" data-target="#create" title="Añadir Usuario">
+    <i class="fa fa-plus"></i></a>
 @endsection

@@ -23,6 +23,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::namespace("App\\Http\\Controllers")->group(function () {
     Route::get("/users", "UserController@index")->name('user.index');
+    Route::post("/users/store", "UserController@store")->name('user.store');
 
     Route::get('downloadExcelUsers', 'ExcelController@downloadExcelUsers')->name("downloadExcelUsers");
 

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
-//use App\Role;
+use App\Users_Profiles as Profiles;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
@@ -25,8 +25,9 @@ class UserController extends Controller
         ];
     
         $users = User::all();
+        $profiles = Profiles::get()->pluck('name','id');
 
-        return view('pages.user.index', compact('users','status'));  
+        return view('pages.user.index', compact('users','status','profiles'));  
     }
 
     /**
