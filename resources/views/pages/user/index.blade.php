@@ -43,8 +43,8 @@
                         <td>{{$user->id ?? ''}}</td>
                         <td><div><b>{{ $user->name ?? ''}}</b></div></td>
                         <td>{{ $user->email ?? ''}}</td>
-                        <td>{{ $user->profile_id ?? ''}}</td>
-                        <td>{{ $user->status_id ?? ''}}</td>
+                        <td>{{ $user->profiles->name ?? ''}}</td>
+                        <td>{{ $user->status->name ?? ''}}</td>
                         <td class="text-center">
                             <a href="#" class="btn btn-default btn-sm" title="Detalles" data-toggle="modal" data-target="#show">
                                 <i class="icon-eye text-info"></i>
@@ -65,4 +65,12 @@
       <!--Add New Message Fab Button-->
 <a href="#" class="btn-fab btn-fab-md fab-right fab-right-bottom-fixed shadow btn-primary" data-toggle="modal" data-target="#create" title="Añadir Usuario">
     <i class="fa fa-plus"></i></a>
+<script>
+  
+  function editUser(id){
+
+    alert(id);
+  }
+
+</script>
 @endsection

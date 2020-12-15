@@ -39,9 +39,14 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function appraisals()
+    public function profiles()
     {
-        return $this->hasMany('App\Appraisal');
+        return $this->belongsTo('App\Users_Profiles','profile_id', 'id');
+    }
+
+    public function status()
+    {
+        return $this->belongsTo('App\Users_Status','status_id', 'id');
     }
 
     public function providers()
