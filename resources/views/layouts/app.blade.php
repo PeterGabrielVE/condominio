@@ -22,7 +22,7 @@
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
         <link rel="stylesheet" href="{{ asset('css/reactor.css') }}">
         <link rel="stylesheet" href="{{ asset('css/app.skins.css') }}">
-
+         <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css"> 
         @livewireStyles
 
         <!-- Scripts -->
@@ -90,7 +90,7 @@
   <script src="{{asset('js/helpers/smartresize.js')}}"></script>
   <script src="{{asset('js/constants.js')}}"></script> 
   <script src="{{asset('js/main.js')}}"></script> 
- 
+  <script src="{{asset('js/functions.js')}}"></script>
   <!-- endbuild -->
   <!-- page scripts -->
   <script src="{{asset('vendor/datatables/media/js/jquery.dataTables.js')}}"></script> 

@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'dd0328827f7bc4dc78701ab0199c27aeff88d4fb',
+    'reference' => '0c74f1a3505c61538e44acd02f25ebfe871d2fc8',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -41,6 +41,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '3e9d791b67d0a2912922b7b7c7312f4b37af41e4',
+    ),
+    'brian2694/laravel-toastr' => 
+    array (
+      'pretty_version' => '5.54',
+      'version' => '5.54.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e543a8a6953be6b25706da4c7ae48600666a70dc',
     ),
     'brick/math' => 
     array (
@@ -530,7 +539,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'dd0328827f7bc4dc78701ab0199c27aeff88d4fb',
+      'reference' => '0c74f1a3505c61538e44acd02f25ebfe871d2fc8',
     ),
     'laravel/passport' => 
     array (

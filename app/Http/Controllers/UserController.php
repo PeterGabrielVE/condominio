@@ -50,18 +50,18 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
+        //dd($request->all());
         $dataUser = [
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'rol_id' => $request->rol_id,
-            'locale' => 'es',
+            'profile_id' => $request->profile_id,
         ];
 
         $validateUser = User::where('email', $request->email);
         if($validateUser->count() > 0) {
             toastr()->error('El correo ya se encuentra registrado');
-            return redirect()->route('nuevo.usuario')->withInput($request->all());
+            return redirect()->back()->withInput($request->all());
         } else {
             $user = new User($dataUser);
 
