@@ -31,7 +31,7 @@
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    {!! Toastr::message() !!}
+
     <body class="page-loading">
       <div class="pageload"></div>
       <div class="app layout-fixed-header">

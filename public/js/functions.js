@@ -71,10 +71,10 @@ function saveData(url, forml, method)
                 $("#" + key).addClass("is-invalid");
                 $("#_" + key).addClass("is-invalid");
                 $("." + key + "_span").addClass("invalid-feedback").html(value);
-                toastr.error(value,"Error");
+                //toastr.error(value,"Error");
             });
             if(msj.statusText == 'Internal Server Error'){
-                toastr.error('Internal Server Error',"Error");
+                //toastr.error('Internal Server Error',"Error");
             };
         },
     timeout: 15000
