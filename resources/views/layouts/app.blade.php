@@ -23,11 +23,15 @@
         <link rel="stylesheet" href="{{ asset('css/reactor.css') }}">
         <link rel="stylesheet" href="{{ asset('css/app.skins.css') }}">
          <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css"> 
+        <script src="http://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+        <script src="http://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+
         @livewireStyles
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
+    {!! Toastr::message() !!}
     <body class="page-loading">
       <div class="pageload"></div>
       <div class="app layout-fixed-header">
